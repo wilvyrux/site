@@ -1,0 +1,101 @@
+
+
+.modal-backdrop.fade.in {
+    display: none;
+}
+
+.modal {
+    @include t-black(.5);
+
+    .modal-dialog {
+        margin: 10% auto;
+        width: 60%;  
+
+        @media only screen and (max-width:1024px) {
+            width: 95%;
+        }
+      
+    }
+
+    &.modal-small {
+
+        .modal-dialog {
+            margin: 10% auto;
+            max-width: 550px;  
+    
+            @media only screen and (max-width:1024px) {
+                width: 95%;
+            }
+          
+        }
+    }
+}
+
+
+
+.modal-content {
+    @include border-radius(0);    
+
+    .close {
+        right: 15px;
+        position: absolute;
+        top: 5px;
+        font-size: 30px;
+        z-index: 10;
+    }
+
+    .modal-header {
+        margin-top: 25px;
+    }
+
+    .modal-footer {
+        border-top: 0;
+    }
+
+    .modal-body {
+        padding-top: 35px;
+        padding:30px;
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+    
+            li {
+                display: block;
+                margin-bottom: 15px;
+    
+                label {
+                    display: block;
+                    font-weight: normal;
+                    margin-bottom: 5px;
+                    font-size: em(13px);
+                }
+    
+                input,
+                textarea,
+                select
+                {
+                    display: block;
+                    font-size: em(13px);
+
+                    border: 1px solid $color-light-gray3;
+                    padding: 5px;
+                    width:100%;
+                    border-radius: 0 !important;
+                    box-sizing: border-box;
+
+                    &:hover,
+                    &:active,
+                    &:focus {
+                          @include shadow-box();  
+                    }
+                }
+
+                textarea {
+                    min-height: 150px;
+                }
+            }
+        }
+    }
+}

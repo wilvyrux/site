@@ -1,0 +1,56 @@
+div {
+    &.table-responsive.table-primary {
+        padding-left: 10px !important;
+    }
+}
+
+.table-primary {
+    border: 1px solid $color-light-gray;
+    padding: 10px !important;
+    margin-bottom: 25px;
+
+    .count {
+        font-size: 30px;
+        font-weight: normal;
+        padding: 5px;
+    }
+
+    table {
+        margin-bottom: 0;
+
+    }
+
+    h4 {
+        margin: 0;
+        // padding: 0 10px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    table {
+        > thead {
+            > tr {
+                th {
+                    font-size: 12px;
+                    font-weight: normal;
+                    white-space: nowrap;
+                    padding: 5px 10px 3px 0 !important;
+                    border-bottom:1px solid $color-light-gray;
+                }
+            }
+        }
+        tbody {
+            > tr {
+                td {
+                    font-size: 12px;
+                    padding: 3px 0;
+                    padding-right: 5px;
+                }
+                @media only screen and (max-width:800px) {
+                    &:last-child {
+                        border-bottom: 1px solid $color-light-gray;
+                    }
+                }
+            }
+        }
+    }
+}

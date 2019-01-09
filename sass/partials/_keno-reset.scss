@@ -1,0 +1,158 @@
+
+// switch kendo
+.k-switch.km-switch {
+
+    border: 1px solid transparent;
+    height: 30px;
+    // width: 60px;
+
+    .km-switch-label-off.km-switch-label-on {
+        height: 30px;
+        padding: 4px;
+    }
+
+
+    .km-switch-container.km-switch-wrapper {
+        border:1px solid #0066CC;
+        background: #eeefef;
+    }
+
+    .km-switch-label-off, 
+    .km-switch-label-on {
+
+        font-size: 12px;
+        height: 30px;
+        padding: 3px;
+        font-weight:bold;
+        border-right: 2px solid #fff;
+        
+    }
+
+    .k-switch-label-off.km-switch-label-off {
+        color: #333333;
+    }
+
+    // .k-switch-handle.km-switch-handle {
+    //     transform: inherit;
+    // }
+
+    // &.km-switch-off {
+    //     .k-switch-handle.km-switch-handle {
+    //         transform: translateX(0) translateY(0px) !important;
+    //     }
+    // }
+
+    // &.km-switch-on {
+    //     .k-switch-handle.km-switch-handle {
+    //         transform: translateX(47px) translateY(0px) !important;
+    //     }
+    // }
+    
+}
+
+
+
+
+
+
+
+// tables 
+.table-title {
+    background: $color-primary;
+    padding: 10px !important;
+    display: block;
+    font-size: 18px;
+    color: $color-white;
+    font-family: roboto;
+    text-transform: capitalize;
+    height: 40px;
+}
+
+.grid.k-grid {
+
+    .k-grid-header  {
+        th.k-header {
+            background: $color-light-gray4;
+            font-size: 12px;
+            font-family: $font-primary;
+            border-bottom: 1px solid $color-light-gray2;
+
+             a {
+                 color: $color-black;
+
+                 &.k-grid-filter {
+                     span {
+                        color: $color-light-gray5;
+
+                        &:hover {
+                            color: #0066cc !important;
+                        }
+                     }
+                 }
+             }
+        }
+    }
+
+    .k-grid-content {
+        table  {
+           td {
+                &:first-child {
+                    i {
+                        color: $color-secondary;
+                        font-size: 14px;
+                    }
+                }
+
+
+                border-bottom: 1px solid $color-light-gray2;
+                font-size: 12px;
+                font-family: roboto;
+            }
+
+            tr {
+                &.k-state-selected {
+                    background: $color-light-blue;
+                    border: 0 !important;
+                    color: $color-black;
+
+                    td {
+                        border: 1px solid $color-light-gray2;
+                        border-top: none;
+                    }
+
+                    &:hover {
+                        td {
+                            background: $color-light-blue;
+                        }
+                    }
+                }
+
+                &:hover {
+                    td {
+                        background: $color-light-blue;
+                    }
+                }
+            }
+
+        }
+    }
+
+
+
+}
+
+
+
+// .k-grid-content {
+//     -ms-overflow-style: none !important;  // IE 10+
+//     overflow: -moz-scrollbars-none !important;  // Firefox
+// }
+// .k-grid-content::-webkit-scrollbar { 
+//     display: none !important;  // Safari and Chrome
+// }
+
+// .k-grid-content::-webkit-scrollbar { width: 0 !important }
+
+
+// .k-grid-content { -ms-overflow-style: none; }
+// .k-grid-content { overflow: -moz-scrollbars-none; }

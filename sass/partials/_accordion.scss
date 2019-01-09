@@ -1,0 +1,66 @@
+.accordion-custom {
+
+   
+        .panel.panel-default {
+            @include border-radius(0);
+            @include shadow-none;
+            margin: 0 !important;
+            border: 0 !important;
+
+            .panel-heading {
+                padding: 0 !important;
+                background: transparent !important;
+                margin: 0 !important;
+
+                .panel-title {
+                    a {
+                        display: block;
+                        padding: 10px;
+                        position: relative;
+                        color: $color-dark;
+                        text-decoration: none;
+                        height: 40px;
+        
+                        span {
+                            position: absolute;
+                            right: 11px;
+                            top: 0;
+                            bottom: 0;
+                            margin: auto;
+                            height: 20px;
+
+                            &.glyphicon.glyphicon-plus {
+                                &:before {
+                                    content: "\f107";
+                                    @include fontawesome();
+                                    font-size: 22px;
+                                }
+                            }
+
+                            &.glyphicon.glyphicon-minus {
+                                &:before {
+                                    content: "\f106";
+                                    @include fontawesome();
+                                    font-size: 22px;
+                                }
+                            }
+                        }
+                     
+                        background: $color-light-gray4;
+
+                        &.collapsed {
+                            background: $color-light-gray4;
+                        }
+
+                        &:empty {
+                            // background: $color-dark3;
+                            background:#f00 !important;
+                        }
+
+                    }
+                }
+            }
+        }
+       
+
+}
