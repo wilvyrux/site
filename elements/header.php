@@ -23,13 +23,13 @@
                                     <!-- <li><a href="#">Something else here</a></li> -->
                                     <li role="separator" class="divider"></li>
                                     <li><h5>Social Accounts</h5></li>
-                                    <li><a href="#">Facebook</a></li>
-                                    <li><a href="#">Instagram</a></li>
-                                    <li><a href="#">Google +</a></li>
-                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="https://www.facebook.com/wilvyrux" target="_blank">Facebook</a></li>
+                                    <li><a href="https://www.instagram.com/wilvyrux/" target="_blank">Instagram</a></li>
+                                    <li><a href="https://plus.google.com/u/0/+WilliamCarrascaJr" target="_blank">Google +</a></li>
+                                    <li><a href="https://twitter.com/wilvyrux" target="_blank">Twitter</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><h5>Portfolio Other Links</h5></li>
-                                    <li><a href="#">Behance</a></li>
+                                    <li><a href="http://behance.net/wilvyrux" target="_blank">Behance</a></li>
                                     </ul>
                               </li>     
                               <li class="dropdown mega-menu">
