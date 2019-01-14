@@ -106,6 +106,7 @@
                                             <li><a href="#">Wordpress Plugins</a></li>
                                             <li role="separator" class="divider"></li>
                                             <li><a href="#">Other Links</a></li>
+                                            <li><a href="https://drive.google.com/open?id=1ZBFGDyqSCBixuoRn7UAEANz0X5BKmuYaL-Swhk9PSSw"> Xelp Resources </a></li>
                                         </ul>
                                     </li>
                             </ul>
